@@ -24,8 +24,19 @@
 
    * Print the matrix out to the screen.
 
-2. accumulate
+2. Let's play with a vector of strings.
 
+   * Create an empty vector of strings.
 
-3. vector of strings
+   * Let's ask the user for 10 words.  In a loop, prompt the user for
+     a word and push it back onto our vector.  Do this until you have
+     10 words.
 
+   * Now, by looping over the words in the vector, find the longest
+     word.  Remember that for a string, `.size()` can tell you its
+     length.
+
+   * Print out the longest word.
+
+   Later, we'll see how to do this in a simpler fashion using the
+   algorithm `std::max_element` and a function.
