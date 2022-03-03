@@ -38,5 +38,8 @@
 
    * Print out the longest word.
 
+     If there are multiple words of the same longest length, just
+     print the first.
+
    Later, we'll see how to do this in a simpler fashion using the
    algorithm `std::max_element` and a function.
